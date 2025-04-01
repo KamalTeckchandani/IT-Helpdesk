@@ -1,0 +1,41 @@
+{
+  "name": "helpdesk-webapp",
+  "version": "1.0.0",
+  "description": "A web application for managing helpdesk tickets",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/t4n15hq/IDS517-Helpdesk-Webapp.git"
+  },
+  "keywords": [
+    "helpdesk",
+    "webapp",
+    "support",
+    "ticketing"
+  ],
+  "author": "tanishq padwal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/t4n15hq/IDS517-Helpdesk-Webapp/issues"
+  },
+  "homepage": "https://github.com/t4n15hq/IDS517-Helpdesk-Webapp#readme",
+  "dependencies": {
+    "@google-cloud/tasks": "^5.3.0",
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "hbs": "^4.2.0",
+    "mongoose": "^8.3.1",
+    "multer": "^1.4.5-lts.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.9.4",
+    "nodemailer": "^6.9.13"
+  }
+}
