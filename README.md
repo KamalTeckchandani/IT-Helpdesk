@@ -2,14 +2,21 @@
 Modern Web-Based Ticketing System for Efficient IT Support**
 
 🧠 **Overview**
+
 ResolveIT is a full-stack web application developed to streamline IT support operations for universities and enterprises. Designed with scalability, security, and user experience in mind, the system allows users to submit service tickets, track progress in real-time, and enables IT administrators to manage issues efficiently. The system is integrated with email notifications, custom SLA tracking, and role-based dashboards.
 
 This project was developed as part of IDS517 – Enterprise Application Development.
 
+
 🔗 Live Demo
+
 🔗 GitHub Repository
 
+
+
+
 🚀 **Key Features**
+
 📝 Ticket Submission: Users can log new IT issues with descriptions and attachments.
 
 📊 Ticket Tracking: Real-time updates from submission to resolution.
@@ -25,7 +32,7 @@ This project was developed as part of IDS517 – Enterprise Application Developm
 🧠 Knowledge Base: Integrated FAQ and self-help section to reduce ticket volume.
 
 
-🏗️** System Architecture**
+🏗️**System Architecture**
 Frontend
 Tech: HTML, CSS, JavaScript
 
@@ -43,7 +50,8 @@ Tables: Users, ServiceRequests, Logs
 
 Security: Password hashing, access control
 
-🖥️** How to Run Locally**
+🖥️**How to run locally**
+
 Clone the repository:
 
 git clone 
@@ -62,6 +70,7 @@ Access the app:
 Open your browser at http://localhost:3000
 
 📦 **Core Modules**
+
 Login & Authentication: Secure registration and login process
 
 Service Request Management: Submission, viewing, and assignment of tickets
@@ -75,6 +84,7 @@ Custom SLAs: Define and track ticket resolution time
 Analytics Dashboard: Visualize ticket trends and performance metrics
 
 🧪 **Testing Strategy**
+
 Unit Testing: Mocha + Chai (backend), Jest (frontend)
 
 Integration Testing: Postman, Cypress
@@ -83,7 +93,8 @@ UAT: Real-world use cases by test users to validate features
 
 
 
-📌** Future Enhancements**
+📌**Future Enhancements**
+
 Enable user feedback on ticket resolutions
 
 AI-based ticket classification
